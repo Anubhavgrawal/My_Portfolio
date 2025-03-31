@@ -1,0 +1,130 @@
+.Contect-header{
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.Contect-header h1{
+  font-size: 50px;
+}
+
+.Contect-header img{
+  position: relative;
+    z-index: -1;
+    transform: scale(0.8);
+    padding: 16px;
+    bottom: 80px;
+    left: 64px;
+}
+
+.contect-content {
+  display: flex;
+  /* width: 60vw; */
+}
+
+.contect-content .contect-left{
+  padding: 40px 40px 130px 130px;
+}
+
+.contect-content .contect-left h1{
+  padding: 20px 20px 20px 0;
+  font-weight: 700;
+  background:linear-gradient(267deg, #da7c25 80%, #b923e1 100.06%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* : linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%); */
+}
+
+.contect-content .contect-left .paragraph{
+  font-size: 16px;
+  width: 30vw;
+}
+
+.contect-display{
+  display: flex;
+}
+
+.contect-display .contect-display-icon{
+  height: 30px;
+  width: 30px;
+  margin: 15px 0;
+}
+
+.contect-display p{
+  margin: 15px 20px;
+  font-size: 20px;
+  color: #d8d8d8;
+  line-height: 25px;
+}
+
+.contect-right{
+  padding: 40px 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 53vw;
+}
+
+.contect-right .text-input{
+  background: #373737;
+  height: 45px;
+  border: 0px;
+  border-radius:5px ;
+  padding: 10px;
+  color:#a0a0a0;
+  font-family: Outfit;
+}
+
+.right-text{
+  color: #d8d8d8;
+}
+.contect-right .message{
+  height:30vh;
+}
+
+.contect-right .submit-button{
+  border: none;
+    padding: 11px;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    margin: 9px;
+    border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  transition: 0.9s;
+}
+
+.contect-right .submit-button:hover{
+  transform: scale(1.1);
+}
+
+
+@media (max-width:780px) {
+  .Contect{
+    width: 100%;
+  }
+  .Contect .contect-content .contect-left{
+    padding: 0px 40px 36px 34px;
+
+
+  }
+
+  .contect-left h1{
+    font-size: 48px;
+  }
+  .contect-content .contect-left p{
+    font-size: 20px;
+  }
+  .contect-content .contect-left .paragraph{
+    font-size: 20px;
+    width: 80vw;
+  }
+  .contect-content{
+    flex-direction:column ;
+  }
+
+  .contect-right{
+    width: 90%;
+    padding: 20px 30px;
+  }
+}
