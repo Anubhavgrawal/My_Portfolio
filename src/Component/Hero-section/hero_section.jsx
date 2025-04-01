@@ -16,7 +16,7 @@ const Hero_section = () => {
           <span>I'm Anubhav Agrawal,</span> a fullstack developer.
         </h1>
         <p>
-          I am a B.Tech student with expertise in DSA, C++, and Full-Stack
+          I am a B.Tech(IT) student with expertise in DSA, C++, and Full-Stack
           Development, passionate about designing scalable applications and
           solving complex programming challenges with innovative solutions.
         </p>
