@@ -22,7 +22,7 @@ const Hero_section = () => {
         </p>
         <div className="hero-buttons">
           <AnchorLink className="anchor-link" offset={50} href="#contact">
-            <div className="hero-action">Contect me</div>
+            <div className="hero-action">Contact me</div>
           </AnchorLink>
           <div className="resume">My Resume</div>
         </div>
