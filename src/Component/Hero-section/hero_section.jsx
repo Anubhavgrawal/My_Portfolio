@@ -13,18 +13,21 @@ const Hero_section = () => {
           className="About-image"
         />
         <h1>
-          <span>I'm Anubhav Agrawal,</span> a fullstack developer.
+          <span>I'm Anubhav Agrawal,</span> a Full-Stack developer.
         </h1>
         <p>
-          I am a B.Tech(IT) student with expertise in DSA, C++, and Full-Stack
-          Development, passionate about designing scalable applications and
-          solving complex programming challenges with innovative solutions.
+          Passionate Full-Stack Software Developer turning ideas into scalable, secure, and impactful web applications through clean code, modern technologies, and problem-solving.
         </p>
         <div className="hero-buttons">
           <AnchorLink className="anchor-link" offset={50} href="#contact">
             <div className="hero-action">Contact me</div>
           </AnchorLink>
-          <div className="resume">My Resume</div>
+          <div className="resume">
+            <a  href={`${import.meta.env.BASE_URL}Anubhav_Agrawal_Resume.pdf`}
+                target="_blank"
+                rel="noopener noreferrer"
+            >Resume</a>
+          </div>
         </div>
       </div>
     </center>

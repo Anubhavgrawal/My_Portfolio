@@ -60,6 +60,11 @@
   transition: 0.7s;
 }
 
+.hero .hero-buttons .resume a{
+  color: white;
+  text-decoration: none;
+}
+
 .hero .hero-buttons .resume:hover {
   padding: 2vh 2vw;
   border-radius: 50px;

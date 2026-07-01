@@ -22,19 +22,14 @@ const About = () => {
         </div>
         <div className="skills">
           <p className="About-paragraph">
-            I am a driven B.Tech(IT) student with a strong command of Data
-            Structures, Algorithms, and Full-Stack Development. Proficient in
-            C++, React, Node.js, MySQL, and MongoDB, with a passion for building
-            scalable applications and solving complex programming challenges.
-            Skilled in collaborative development using Git and GitHub, eager to
-            apply my technical expertise in a dynamic, real-world setting.
-          </p>
+            Passionate Full-Stack Software Developer with experience delivering 5+ end-to-end web applications using the
+            MERN stack. Built secure authentication systems, interactive admin dashboards, payment gateway 
+            integrations while developing responsive user interfaces and scalable backend services. Strong foundation in C++, Data Structures & Algorithms, with 300+ coding problems solved and a commitment to writing clean, maintainable code.          </p>
           <div className="About-skills">
             <SiAffinitydesigner className="About-icon" />
             <div className="content">
               <p>
-                HTML, CSS, JavaScript, Bootstrap, Tailwind, React, Node.js,
-                Express.js, Git-Github, VsCode
+                React.js, Node.js, Express.js, JavaScript (ES6+), C++, REST APIs, JWT Authentication, Git, GitHub, Tailwind CSS, Bootstrap, HTML5, CSS3, Postman, Figma, VS Code
               </p>
             </div>
           </div>
