@@ -3,12 +3,12 @@ import theme_patter from "../../assets/theme_pattern.svg";
 import project_card1 from "../../assets/project_card1.png";
 import project_card2 from "../../assets/project_card2.png";
 import project_card3 from "../../assets/project_card3.png";
-import project_card4 from "../../assets/project_card4.png";
-import project_card5 from "../../assets/project_card5.png";
-import project_card6 from "../../assets/project_card6.png";
-import zaika_junction from "../../assets/zaika_junction.png";
+import project_card from "../../assets/project_card.jpeg";
+// import project_card5 from "../../assets/project_card5.png";
+import project_card6 from "../../assets/car.jpeg";
+import zaika_junctio from "../../assets/zaika_junctio.jpeg";
 import admin from "../../assets/admin.png";
-import Tubeshield from "../../assets/Tubeshield.png";
+import Tubeshiel from "../../assets/Tubeshiel.jpeg";
 
 const My_projects = () => {
   return (
@@ -20,7 +20,7 @@ const My_projects = () => {
       <div className="project-cards">
         <div className="card">
           <div className="card-image">
-            <img src={zaika_junction} alt="" />
+            <img src={zaika_junctio} alt="" />
           </div>
           <div className="card-title">
             <h1 className="image-title">Zaika Junction</h1>
@@ -78,7 +78,7 @@ const My_projects = () => {
         </div>
         <div className="card">
           <div className="card-image">
-            <img src={Tubeshield} alt="" />
+            <img src={Tubeshiel} alt="" />
           </div>
           <div className="card-title">
             <h1 className="image-title">Tubeshield</h1>
@@ -107,7 +107,7 @@ const My_projects = () => {
         </div>
         <div className="card">
           <div className="card-image">
-            <img src={project_card4} alt="" />
+            <img src={project_card} alt="" />
           </div>
           <div className="card-title">
             <h1 className="image-title">RhythmX</h1>
