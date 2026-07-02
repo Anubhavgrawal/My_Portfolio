@@ -26,7 +26,7 @@ const Hero_section = () => {
             <a  href={`${import.meta.env.BASE_URL}Anubhav_Agrawal_Resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
-            >Resume</a>
+            >My Resume</a>
           </div>
         </div>
       </div>

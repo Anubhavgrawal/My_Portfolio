@@ -47,7 +47,7 @@ const Footer = () => {
       <hr className="hr" />
       <div className="lower-footer">
         <div className="lower-left">
-          <p>© 2025 Anubhav Agrawal. All rights reserved.</p>
+          <p>© 2026 Anubhav Agrawal. All rights reserved.</p>
         </div>
         <div className="lower-right">
           <p>Term of Services</p>
